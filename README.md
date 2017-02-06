@@ -20,11 +20,10 @@ Prerequisites: Python 3, virtualenv, virtualenvwrapper.
 
 4. Install dependencies:
 
-        $ pip install -r requirements.txt
-
+        $ make install
 
 5. Open prepared notebook:
 
-        $ jupyter notebook
+        $ make run
 
     This command will create a new jupyter session in your browser. Open the created tab (or window) and click on `workshop.ipynb`.
